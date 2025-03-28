@@ -30,7 +30,7 @@ For a quick automated installation, run:
 git clone https://github.com/JLBMaritime/AIS.git
 cd AIS
 chmod +x install.sh
-./install.sh
+sudo ./install.sh
 ```
 
 ## Manual Installation
