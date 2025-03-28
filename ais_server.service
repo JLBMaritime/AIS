@@ -1,0 +1,12 @@
+[Unit]
+Description=AIS Server Service
+After=network.target
+
+[Service]
+User=JLBMaritime
+ExecStart=/bin/bash -c 'source /home/JLBMaritime/ais_project/ais_env/bin/activate && python3 /home/JLBMaritime/ais_project/ais_server.py'
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+[AIS]
+serial_port = /dev/serial0
+# Replace with your actual serial port
+ip = 192.168.1.100
+# Replace with the target IP address
+port = 12345
+# Replace with the target port number

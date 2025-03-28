@@ -1,0 +1,18 @@
+AIS Data Flow Diagram
+
+This is a text description of the AIS data flow that should be represented in an image:
+
+[AIS Signal] --> [dAISy HAT] --> [Raspberry Pi] --> [Network] --> [Target Device]
+   ^                  |              |                              |
+   |                  v              v                              v
+Radio Waves      Serial Data    TCP/IP Data                  Navigation Software
+                                                             or Chart Plotter
+
+Key Components:
+1. AIS Signal: Radio signals from ships containing vessel information
+2. dAISy HAT: Hardware that receives and decodes AIS signals
+3. Raspberry Pi: Runs the AIS server software
+4. Network: WiFi or Ethernet connection
+5. Target Device: Computer, chart plotter, or other device that processes AIS data
+
+Note: This text file is a placeholder. Replace the image URL in the README.md with an actual diagram once created.
